@@ -15,9 +15,11 @@ const library = [
     readingStatus: false,
   },
 ];
-let count=0;
+
 const numberOfBooksRead = () => {
   // write your code here
+
+	let count=0;
 	library.forEach((ele)=>{
 		if(ele.readingStatus=="true")
 		{
